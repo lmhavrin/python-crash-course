@@ -1,4 +1,4 @@
-# Exercise 6-1: Person
+# Exercise 6-7: People
 
 person_one = {
     "first_name": "honey",
@@ -28,5 +28,5 @@ for person in people:
     persons_age = person["age"]
     persons_city = person["city"]
 
-    print(persons_name.title() + " is " + str(persons_age) +
-        " years old. And lives in " + persons_city.title() + ".")
+    print("\n" + persons_name.title() + " is " + str(persons_age) +
+        " years old and lives in " + persons_city.title() + ".")
