@@ -19,7 +19,5 @@ cities = {
     }
 
 for country, population in cities.items():
-    print(country.title() + ":")
-    print("\t" + population["country"].title() + " is the country this city resides in.")
-    print("\t" + "A weird fact about " + country.title() + " is " + population["fact"] + " with a population of " +
-        str(population["approximate population"]) + ".")
+    print(country.title() + " is a city with the approximate population of " + str(population["approximate population"]))
+
