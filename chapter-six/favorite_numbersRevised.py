@@ -11,4 +11,4 @@ favorite_numbers = {
 for name, numbers in favorite_numbers.items():
     print(name.title() + "'s favorite numbers are:")
     for number in numbers:
-        print("\t" + str(number))
+        print("\t-" + str(number))
