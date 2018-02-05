@@ -2,6 +2,8 @@
 magicians = ["bob", "larry", "joe", "bill"]
 
 def show_magicians(magicians):
+    """Goes through a list of magicians and prints them"""
+    # edited for styling functions 8-17
     for magician in magicians:
         print("-" + magician.title())
 
