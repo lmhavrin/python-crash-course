@@ -8,8 +8,11 @@ def car_info(manufacturer, model, **other_info):
         car[key] = value
     return car
 
-car_one = car_info("Subaru", "WRX", awd=True, color= "blue")
-car_two = car_info("Saturn", "sl2", awd=False, color= "yellow")
+car_one = car_info("Subaru", "WRX", awd=True, color="blue")
+car_two = car_info("Saturn", "sl2", awd=False, color="yellow")
+# removed space in between keyword arguments
+# will check for 79 character limit moving forward
+# for exercise 8-17
 
 print(car_two)
 print(car_one)
