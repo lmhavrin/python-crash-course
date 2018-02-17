@@ -18,10 +18,10 @@ class Restaurant():
 
 restaurant_one = Restaurant("Casa Bonita", "Mexican")
 
-print("-" + restaurant_one.restaurant_name)
-print("-" + restaurant_one.cuisine_type)
+#print("-" + restaurant_one.restaurant_name)
+#print("-" + restaurant_one.cuisine_type)
 
-restaurant_one.describe_restaurant()
-restaurant_one.open_restaurant()
+#restaurant_one.describe_restaurant()
+#restaurant_one.open_restaurant()
 
 # Remember to use the self.attribute in all methods
