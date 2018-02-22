@@ -7,40 +7,16 @@ class Die():
         self.sides = sides
 
     def roll_die(self):
-        print(randint(1, self.sides))
+        for _ in range(10):
+            print(randint(1, self.sides))
+
+        print('')
 
 die_one = Die()
-die_one.roll_die()
-die_one.roll_die()
-die_one.roll_die()
-die_one.roll_die()
-die_one.roll_die()
-die_one.roll_die()
-die_one.roll_die()
-die_one.roll_die()
-die_one.roll_die()
 die_one.roll_die()
 
 die_two = Die(10)
 die_two.roll_die()
-die_two.roll_die()
-die_two.roll_die()
-die_two.roll_die()
-die_two.roll_die()
-die_two.roll_die()
-die_two.roll_die()
-die_two.roll_die()
-die_two.roll_die()
-die_two.roll_die()
 
 die_three = Die(20)
-die_three.roll_die()
-die_three.roll_die()
-die_three.roll_die()
-die_three.roll_die()
-die_three.roll_die()
-die_three.roll_die()
-die_three.roll_die()
-die_three.roll_die()
-die_three.roll_die()
 die_three.roll_die()
