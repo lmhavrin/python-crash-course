@@ -1,0 +1,4 @@
+In python you can make loops, classes dictionaries.
+In python everything is up to your imagination.
+In python simple is better than complex.
+In python syntax matters.
