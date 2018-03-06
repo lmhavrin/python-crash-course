@@ -1,11 +1,15 @@
-# Exercise 10-8: Cats and Dogs
+#Exercise 10-8 Cats and Dogs
+# Exercise 10-9: Silent Cats and Dogs
+# All you had to do for exercise 10-9 is put in a pass
+
 def read_file(filename):
     """Reads a file and prints contents to screen"""
     try:
         with open(filename) as f_obj:
             contents = f_obj.read()
     except FileNotFoundError:
-        print(filename + " is the file that is missing!")
+        #print(filename + " is the file that is missing!")
+        pass
     else:
         print(contents)
 
