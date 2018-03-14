@@ -1,7 +1,7 @@
 # Exercise 11-1 City, Country & Exercise 11-2: Population
 
 import unittest
-from city_country import city_country
+from city_functions import city_country
 
 class CityCountryTestCase(unittest.TestCase):
     """Tests for 'city_country.py'. """
